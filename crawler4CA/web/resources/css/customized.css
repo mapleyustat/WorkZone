@@ -1,0 +1,177 @@
+* {
+    box-sizing:border-box ;
+    -moz-box-sizing:border-box ;
+    -webkit-box-sizing:border-box ;
+}
+.module {
+    display:block;
+    width:100%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    height:auto;
+    overflow:hidden;
+    background-color: white;
+    border: 1px #999999 solid;
+    margin:10px 0px;
+}
+
+.module-header {
+    display: block;
+    width:100%;
+    height:auto;
+    border-bottom: 1px #999999 solid;
+    padding:20px 10px;
+    font-weight: bold;
+    font-size:120%;
+    text-transform: uppercase;
+    background-color: #eeeee8;
+}
+
+.module-subheader {
+    display: block;
+    width:100%;
+    height:auto;
+    border-bottom: 1px #999999 solid;
+    padding:20px 10px 10px 10px;
+    font-weight: bold;
+    font-size:100%;
+    text-transform: uppercase;
+}
+
+.module-section {
+    display: block;
+    width:100%;
+    height:auto;
+    padding:10px;
+    font-size:100%;
+    line-height: 120%;
+}
+
+.dark-panel {
+    display:block;
+    width:100%;
+    padding:20px;
+    height:auto;
+    color:white;
+    background-color:#3a4046;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.dark-panel * {
+    color:white;
+}
+.panel-section {
+    display:block;
+    padding:10px 0px;
+    border-top: 1px dotted #aaaaaa;
+    width:100%;
+    height:auto;
+}
+.light-panel {
+    display:block;
+    width:100%;
+    padding:20px;
+    height:auto;
+    background-color:white;
+    border:1px #999999 solid;
+}
+
+.callout-panel {
+    display:block;
+    width:100%;
+    padding:20px;
+    height:auto;
+    background-color:#fffacd;
+    border:1px #999999 solid;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.outline-section {
+    display:block;
+    margin:5px auto;
+    padding:10px;
+    width:95%;
+    height:auto;
+    border:2px gray solid;
+    background-color: transparent;
+}
+
+.panel-element {
+    text-align: center;
+    border-right: 1px #999999 solid;
+    margin:0;
+    padding:25px 20px;
+}
+
+.panel-element:last-of-type {
+    border-right:none;
+}
+
+.lower-rounded {
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+}
+
+.rounded {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.no-tb-margin {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.no-tb-padding {
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+
+.outline-button {
+    display:inline-block;
+    border:#dddddd 2px solid;
+    background-color: transparent;
+    width:auto;
+    height:auto;
+    padding:10px;
+    margin:5px;
+    text-align: center;
+    color:#dddddd;
+}
+
+.outline-button:hover {
+    color:white;
+    border-color:white;
+}
+
+.bulk-purchase-button {
+    text-align: center;
+    display:block;
+    margin:10px auto;
+    padding:5px;
+    width:120px;
+    color:#595959;
+    background-color:#fbd850;
+}
+
+.bulk-purchase-button:after {
+    content: 'BULK PURCHASE';
+}
+
+.crowdfunding-button {
+    text-align: center;
+    display:block;
+    margin:10px auto;
+    padding:5px;
+    width:120px;
+    color:white;
+    background-color:#cd0f13;
+}
+.crowdfunding-button:after {
+    content: 'CROWDFUNDING';
+}

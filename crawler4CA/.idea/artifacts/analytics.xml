@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="analytics">
+    <output-path>$PROJECT_DIR$/classes/artifacts/analytics</output-path>
+    <root id="archive" name="analytics.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="crawler4CA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="crawler4CA/web/Web" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web/resources" />
+    </root>
+  </artifact>
+</component>

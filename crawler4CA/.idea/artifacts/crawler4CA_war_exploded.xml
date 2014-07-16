@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="crawler4CA:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/crawler4CA_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="crawler4CA" />
+          <element id="javaee-facet-resources" facet="crawler4CA/web/Web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+        <element id="dir-copy" path="$PROJECT_DIR$/web" />
+      </element>
+      <element id="library" level="project" name="jdk1.7" />
+      <element id="javaee-facet-resources" facet="crawler4CA/web/Web" />
+    </root>
+  </artifact>
+</component>
