@@ -1,0 +1,35 @@
+--- Statistics ---
+Video played for 28.9 second(s)
+First frame at 1.862 seconds
+0 missing frame(s)
+Average frame rate was 24.0 fps
+0 frame rate violation(s)
+
+--- Statistics ---
+Video played for 28.6 second(s)
+First frame at 1.991 seconds
+0 missing frame(s)
+Average frame rate was 24.0 fps
+0 frame rate violation(s)
+
+--- Statistics ---
+Video played for 28.3 second(s)
+First frame at 1.818 seconds
+0 missing frame(s)
+Average frame rate was 24.0 fps
+0 frame rate violation(s)
+
+--- Statistics ---
+Video played for 28.3 second(s)
+First frame at 1.774 seconds
+0 missing frame(s)
+Average frame rate was 24.0 fps
+0 frame rate violation(s)
+
+--- Statistics ---
+Video played for 28.9 second(s)
+First frame at 1.718 seconds
+0 missing frame(s)
+Average frame rate was 24.0 fps
+0 frame rate violation(s)
+
