@@ -1,0 +1,4 @@
+0 0 0 1 sendChannel=0 rcvChannel=0
+0 1 1 1 sendChannel=0 rcvChannel=0
+1 1 1 0 sendChannel=0 rcvChannel=0
+1 0 0 0 sendChannel=0 rcvChannel=0
