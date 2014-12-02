@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Vignesh Prakasam</title>
+</head>
+<body>
+
+{% if thought_list %}
+    <ul>
+    {% for i in thought_list %}
+        <li>{{ i.thought_text }} - {{ i.posted_date|date:"SHORT_DATETIME_FORMAT" }}
+            Upvotes: {{thought_opinion.i.thought_text.up_votes}}
+            Downvotes: {{thought_opinion.i.thought_text.down_votes}}
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>Not Available</p>
+{% endif %}
+
+</body>
+</html>
